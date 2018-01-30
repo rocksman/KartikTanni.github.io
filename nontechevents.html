@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Events</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/favicon.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/drawing.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <script src="jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="material.teal-green.min.css">
+    <link rel="stylesheet" href="stylesNonEvents.css">
+
+  </head>
+  <body>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="custom-header mdl-layout__header mdl-layout__header--colored">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title mdl-color-text--white">MAGNOVITE</span>
+      <div class="mdl-layout-spacer"></div>
+      <!--nav class="mdl-navigation">
+        <a class="mdl-navigation__link mdl-color-text--white" id="mdl-custom-btn" href="#"><i class="material-icons">account_circle</i> Login</a>
+      </nav-->
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Magnovite</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="/">Home</a>
+      <a class="mdl-navigation__link" href="http://magnovite.net//techevents.html">Technical Events</a>
+      <a class="mdl-navigation__link" href="http://magnovite.net//nontechevents.html">Non-Technical Events</a>
+      <a class="mdl-navigation__link" href="http://magnovite.net//commingsoon.html">Workshops</a>
+      <a class="mdl-navigation__link" href="http://magnovite.net//about.html">About Us</a>
+    </nav>
+  </div>
+  <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+    <main class="mdl-layout__content">
+      <div class="demo-blog__posts mdl-grid">
+        <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Cultural Events</a></h3>
+          </div>
+        </div>
+        <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+          <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
+            <img src="images/drawing.png">
+          </div>
+        </div>
+        <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+          <div class="mdl-card__title mdl-color-text--grey-50">
+            <h3 class="quote"><a href="entry.html">I didn't know what to put here so here's a random banner…</a></h3>
+          </div>
+        </div>
+        <div class="mdl-card event2 mdl-cell mdl-cell--8-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Face Painting</a></h3>
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            Magnovite brings you a great opportunity to show your creativity. Face painting is an exciting, fun event bringing a splash of colour and a sprinkle of glitter to brighten up the atmosphere. Painting a canvas is tricky, a face even more.
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-card open-mic mdl-cell mdl-cell--4-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Open Mic</a></h3>
+          </div>
+          <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+            Open Mic invites you to savour your thoughts, express your feelings and bring your beliefs to life with words through the medium of rhyme.
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-card junk-designer mdl-cell mdl-cell--12-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Junk Designer</a></h3>
+          </div>
+          <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+            Reduce-Reuse-Recycle your way through this challenging design event to turn one man’s waste into another’s haute couture. Creativity never goes out of style. Get your inner fashionista out and show your competitors who’s the boss. Your creation should be a reflection of your own self!
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-card event4 mdl-cell mdl-cell--6-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Western Dance</a></h3>
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            You’ve got the moves and we’ve got the stage. What sets you apart from the others will be your devotion to delivering the best performance. Put on your dancing shoes and come wow us with your moves.
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-card jam mdl-cell mdl-cell--6-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">JAM</a></h3>
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            Just-A-Minute is an all round-fun event that is all about the control of the mind over the mouth. Can you make it through sixty seconds of non-stop talking without hesitation, repetition, or deviation? Or will the sheer pressure make you crumble and have competitors pounce on you in an instance?
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+
+
+
+         <div class="mdl-card indian-music mdl-cell mdl-cell--4-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Indian Music</a></h3>
+          </div>
+          <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+            Music plays an integral role in the lives of Indians. Indian music is magically enchanted, sophisticated with defined melodies that are soothing to the ear. Participants have to express the cultural heritage of India. It is a platform for healthy competition for all those who are passionate about music.
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-card western-electric mdl-cell mdl-cell--8-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Western Electric</a></h3>
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            Battle of Bands is an event where you face-off against musical acts from across the country in pursuit of who gets to call themselves “The Best Band”. There is a lot is at stake here with individual awards, a spectacular audience to perform for and the opportunity to turn up the heat and find out who walks away with the bragging rights.
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-card indian-dance mdl-cell mdl-cell--12-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Indian Dance</a></h3>
+          </div>
+          <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+            Be it classical or folk, Indian dance forms have never failed to mesmerise us. Dance to express not to impress. Express your feelings via dance on the stage, matching your heartbeat to the rhythm and blow the audience away. The better you express the bigger the awards you win.
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mdl-card street-play mdl-cell mdl-cell--6-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="entry.html">Street Play</a></h3>
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            Street play is an event to bring out your theatrical side. Organized in an open air venue, participants compete to attract the attention of the audience with their acting skills and flair for the dramatic. Have you got what it takes? Then claim the stage and tell your story.
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              <span>25 of 30 registered.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer--left-section">
+          <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+            <span class="visuallyhidden">Twitter</span>
+          </button>
+          <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
+            <span class="visuallyhidden">Facebook</span>
+          </button>
+          <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+            <span class="visuallyhidden">Google Plus</span>
+          </button>
+        </div>
+        <div class="mdl-mini-footer--right-section">
+          <button class="mdl-mini-footer--social-btn social-btn__share">
+            <i class="material-icons" role="presentation">share</i>
+            <span class="visuallyhidden">share</span>
+          </button>
+        </div>
+      </footer>
+    </main>
+    <div id="mdl-custom-modal" class="modal">
+      <div class="modal-content mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card--expand">
+          <form action="#" st>
+            <h4> Login </h4>
+            <br/>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="email" pattern='^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$' id="mdl-email">
+              <label class="mdl-textfield__label" for="mdl-email">E-mail...</label>
+              <span class="mdl-textfield__error">E-mail is not valid!</span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="password" id="mdl-password">
+              <label class="mdl-textfield__label" for="mdl-password">Password...</label>
+              <span class="mdl-textfield__error">Password is not valid!</span>
+            </div>
+          </form>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Submit
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect mdl-custom-close">
+            <span class="material-icons">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mdl-layout__obfuscator"></div>
+  </div>
+  <script src="material.min.js"></script>
+</body>
+<script src="magno.js"></script>
+<script>
+  Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+    var link = el.querySelector('a');
+    if(!link) {
+      return;
+    }
+    var target = link.getAttribute('href');
+    if(!target) {
+      return;
+    }
+    el.addEventListener('click', function() {
+      location.href = target;
+    });
+  });
+</script>
+</html>

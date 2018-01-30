@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+body { 
+  margin: 0;
+}
+div { 
+  text-align: center;
+  position: relative;
+}
+.son{
+  margin-top: -20%;
+}
+.mag{
+  margin-top: -2%;
+  font-size: 2vw; 
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.9;
+    color: #000;
+}
+div h1 { 
+  margin: 0;
+  font-size: 20vw; 
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.9;
+}
+img{
+  margin-top:1%;
+}
+.light h1 {
+  color: #000;
+  font-size: 19vw;
+}
+div img { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  
+}
+
+.light {
+  background: #fff;
+  height:100%;
+}
+
+.light img {
+  mix-blend-mode: lighten;
+  height:100%;
+}

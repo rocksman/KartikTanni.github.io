@@ -171,8 +171,8 @@ body .demo-blog {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.demo-blog .gaming .mdl-card__media {
-  background-image: url('images/image2.jpg');
+.demo-blog .junk-designer .mdl-card__media {
+  background-image: url('images/junk.jpg');
 }
 .demo-blog .open-mic .mdl-card__media {
   background-image: url('images/open-mic.jpg');
@@ -185,6 +185,21 @@ body .demo-blog {
 }
 .demo-blog .event4 .mdl-card__media {
   background-image: url('images/dance.jpg');
+}
+.demo-blog .indian-music .mdl-card__media {
+  background-image: url('images/indian-music.jpg');
+}
+.demo-blog .western-electric .mdl-card__media {
+  background-image: url('images/western-electric.jpg');
+}
+.demo-blog .indian-dance .mdl-card__media {
+  background-image: url('images/indian-dance.jpg');
+}
+.demo-blog .street-play .mdl-card__media {
+  background-image: url('images/street-play.jpg');
+}
+.demo-blog .jam .mdl-card__media {
+  background-image: url('images/jam.jpg');
 }
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
@@ -404,7 +419,7 @@ body .demo-blog {
     width: 10px;
     background-color: rgba(0,0,0,0);
 }
- 
+
 ::-webkit-scrollbar-track {
     background-color: #ebebeb;
     -webkit-border-radius: 10px;
@@ -415,7 +430,7 @@ body .demo-blog {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: #4f4f4f; 
+    background: #4f4f4f;
 }
 
 /* MODAL POP UP */
@@ -440,4 +455,3 @@ body .demo-blog {
 }
 
 .mdl-card__actions { background-color: rgba(222, 222, 222, 0.25); }
-
